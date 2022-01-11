@@ -1,0 +1,21 @@
+@media (max-width: 991px) {
+  .single-location {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .add-listing {
+    display: none;
+    visibility: hidden;
+  }
+  .save-icon {
+    display: none;
+    visibility: hidden;
+  }
+  .user-icon {
+    display: none;
+    visibility: hidden;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

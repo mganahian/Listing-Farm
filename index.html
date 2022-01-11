@@ -1,0 +1,2360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ListingFarm</title>
+    <link rel="icon" href="assets/images/Icon.png">
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Box Icon Css -->
+    <link rel="stylesheet" href="assets/css/boxicons.min.css">
+    <!-- Owl Carousel Css -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <!-- Slick Slider Css -->
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    
+    <!-- Main Css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Responsive Css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <!-- ===============  header area start =============== -->
+    <header class="header">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-2">
+                    <div class="logo-section">
+                        <img src="assets/images/Logo.png" alt="logo">
+                    </div>
+                </div>
+                <div class="col-xl-6 d-flex justify-content-end d-none d-xl-block">
+                    
+                    <nav class="main-nav d-flex justify-content-end">
+                        <ul class="menu-list d-flex align-items-center">
+                            <li class="menu-item"><a href="#" class="menu-link">Home<i class='bx bx-chevron-down dd-icon'></i></a>
+                                <ul class="submenu-home1">
+                                    <li><a href="#">Home 1</a></li>
+                                    <li><a href="#">Home 2</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item"><a href="#" class="menu-link">About Us<i class='bx bx-chevron-down dd-icon'></i></a>
+                                <ul class="submenu-home1">
+                                    <li><a href="#">About Us 2</a></li>
+                                    <li><a href="#">About Us 3</a></li>
+                                    <li><a href="#">About Us 4</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item"><a href="#" class="menu-link">Listing<i class='bx bx-chevron-down dd-icon'></i></a>
+                                <ul class="submenu-home1">
+                                    <li><a href="#">Listingt 1</a></li>
+                                    <li><a href="#">Listingt 2</a></li>
+                                    <li><a href="#">Listingt 3</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item"><a href="#" class="menu-link">Category</a></li>
+                            <li class="menu-item"><a href="#" class="menu-link">Pages<i class='bx bx-chevron-down dd-icon'></i></a>
+                                <ul class="submenu-home1">
+                                    <li><a href="#">Pages 1</a></li>
+                                    <li><a href="#">Pages 2</a></li>
+                                    <li><a href="#">Pages 3</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-xl-4 col-lg-10 col-md-9 col-sm-8 col-10">
+                    <div class="menu-right d-flex align-items-center justify-content-end">
+                        <div class="save-icon">
+                            <i class='bx bx-bookmark'></i>
+                            <div class="save-icon-badge">
+                                <p>05</p>
+                            </div>
+                        </div>
+                        <div class="user-icon">
+                            <i class='bx bx-user'></i>
+                        </div>
+                        <div class="add-listing">
+                            <a href="#"><i class='bx bx-list-ul'></i>Add Listing</a>
+                        </div>
+                        <div class="mobile-menu-btn ellips-menu">
+                            <small class="fw-bold"><i class='bx bx-menu text-white d-block d-xl-none'></i></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ===============  header area end =============== -->
+    <!-- ===============  mobile menu area start=============== -->
+    <nav class="mobile-main-nav">
+        <div class="close-btn">
+            <i class='bx bx-x'></i>
+        </div>
+        <ul class="mobile-menu-list mobile-menu-list1">
+            <li class="mobile-menu-item"><a href="#" class="mobile-menu-link">Home<i class='bx bx-chevron-down mobile-dd-icon'></i></a>
+                <ul class="mobile-submenu-home1">
+                    <li><a href="#">Home 1</a></li>
+                    <li><a href="#">Home 2</a></li>
+                </ul>
+            </li>
+            <li class="mobile-menu-item"><a href="#" class="mobile-menu-link">About Us<i class='bx bx-chevron-down mobile-dd-icon'></i></a>
+                <ul class="mobile-submenu-home1">
+                    <li><a href="#">About Us 2</a></li>
+                    <li><a href="#">About Us 3</a></li>
+                    <li><a href="#">About Us 4</a></li>
+                </ul>
+            </li>
+            <li class="mobile-menu-item"><a href="#" class="mobile-menu-link">Listing<i class='bx bx-chevron-down mobile-dd-icon'></i></a>
+                <ul class="mobile-submenu-home1">
+                    <li><a href="#">Listingt 1</a></li>
+                    <li><a href="#">Listingt 2</a></li>
+                    <li><a href="#">Listingt 3</a></li>
+                </ul>
+            </li>
+            <li class="mobile-menu-item"><a href="#" class="mobile-menu-link">Category</a>
+            </li>
+            <li class="mobile-menu-item"><a href="#" class="mobile-menu-link">Pages<i class='bx bx-chevron-down mobile-dd-icon'></i></a>
+                <ul class="mobile-submenu-home1">
+                    <li><a href="#">Pages 1</a></li>
+                    <li><a href="#">Pages 2</a></li>
+                    <li><a href="#">Pages 3</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <!-- ===============  mobile menu area end =============== -->
+    <!-- ===============  Hero area start=============== -->
+    <div class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hero-header d-flex justify-content-center">
+                        <h3>Find Anything Best<br> <span>Around</span> You.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ===============   Hero area end =============== -->
+    <!-- ===============  Listing Category area start=============== -->
+    <div class="listing-catagory">
+        <div class="container">
+            <div class="row">
+                <div class="listing-catagory-header">
+                    <h5>Listing Category</h5>
+                    <p>Aliquam et arcu quis libero laoreet malesuada. Fusce sapien tellus, venenatis non justo id, tincidunt euismod sapien tellus, venenatis non justo id, tincidunt euismod leo.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="listing-catagory-wraper d-flex justify-content-center">
+                        <div class="listing-catagory-item">
+                            <div class="listing-catagory-item-overlay">
+                                <h4>Fashion</h4>
+                                <h3>690</h3>
+                                <p>Listing</p>
+                            </div>
+                            <div class="listing-catagory-content">
+                                <img src="assets/images/icon/restaurant.svg" alt="listing-catagory-icon">
+                                <p>Fashion</p>
+                            </div>
+                        </div>
+                        <div class="listing-catagory-item">
+                            <div class="listing-catagory-item-overlay">
+                                <h4>Restaurants</h4>
+                                <h3>690</h3>
+                                <p>Listing</p>
+                            </div>
+                            <div class="listing-catagory-content">
+                                <img src="assets/images/icon/restaurant.svg" alt="listing-catagory-icon">
+                                <p>Restaurants</p>
+                            </div>
+                        </div>
+                        <div class="listing-catagory-item">
+                            <div class="listing-catagory-item-overlay">
+                                <h4>Showroom</h4>
+                                <h3>690</h3>
+                                <p>Listing</p>
+                            </div>
+                            <div class="listing-catagory-content">
+                                <img src="assets/images/icon/take-away.svg" alt="listing-catagory-icon">
+                                <p>Showroom</p>
+                            </div>
+                        </div>
+                        <div class="listing-catagory-item">
+                            <div class="listing-catagory-item-overlay">
+                                <h4>Hotel</h4>
+                                <h3>690</h3>
+                                <p>Listing</p>
+                            </div>
+                            <div class="listing-catagory-content">
+                                <img src="assets/images/icon/review.svg" alt="listing-catagory-icon">
+                                <p>Hotel</p>
+                            </div>
+                        </div>
+                        <div class="listing-catagory-item">
+                            <div class="listing-catagory-item-overlay">
+                                <h4>Real Estate</h4>
+                                <h3>690</h3>
+                                <p>Listing</p>
+                            </div>
+                            <div class="listing-catagory-content">
+                                <img src="assets/images/icon/real-estate.svg" alt="listing-catagory-icon">
+                                <p>Real Estate</p>
+                            </div>
+                        </div>
+                        <div class="listing-catagory-item">
+                            <div class="listing-catagory-item-overlay">
+                                <h4>Event</h4>
+                                <h3>690</h3>
+                                <p>Listing</p>
+                            </div>
+                            <div class="listing-catagory-content">
+                                <img src="assets/images/icon/red-carpet.svg" alt="listing-catagory-icon">
+                                <p>Event</p>
+                            </div>
+                        </div>
+                        <div class="listing-catagory-item">
+                            <div class="listing-catagory-item-overlay">
+                                <h4>Fashion</h4>
+                                <h3>690</h3>
+                                <p>Listing</p>
+                            </div>
+                            <div class="listing-catagory-content">
+                                <img src="assets/images/icon/restaurant.svg" alt="listing-catagory-icon">
+                                <p>Fashion</p>
+                            </div>
+                        </div>
+                        <div class="listing-catagory-item">
+                            <div class="listing-catagory-item-overlay">
+                                <h4>Restaurants</h4>
+                                <h3>690</h3>
+                                <p>Listing</p>
+                            </div>
+                            <div class="listing-catagory-content">
+                                <img src="assets/images/icon/restaurant.svg" alt="listing-catagory-icon">
+                                <p>Restaurants</p>
+                            </div>
+                        </div>
+                        <div class="listing-catagory-item">
+                            <div class="listing-catagory-item-overlay">
+                                <h4>Showroom</h4>
+                                <h3>690</h3>
+                                <p>Listing</p>
+                            </div>
+                            <div class="listing-catagory-content">
+                                <img src="assets/images/icon/take-away.svg" alt="listing-catagory-icon">
+                                <p>Showroom</p>
+                            </div>
+                        </div>
+                        <div class="listing-catagory-item">
+                            <div class="listing-catagory-item-overlay">
+                                <h4>Hotel</h4>
+                                <h3>690</h3>
+                                <p>Listing</p>
+                            </div>
+                            <div class="listing-catagory-content">
+                                <img src="assets/images/icon/review.svg" alt="listing-catagory-icon">
+                                <p>Hotel</p>
+                            </div>
+                        </div>
+                        <div class="listing-catagory-item">
+                            <div class="listing-catagory-item-overlay">
+                                <h4>Real Estate</h4>
+                                <h3>690</h3>
+                                <p>Listing</p>
+                            </div>
+                            <div class="listing-catagory-content">
+                                <img src="assets/images/icon/real-estate.svg" alt="listing-catagory-icon">
+                                <p>Real Estate</p>
+                            </div>
+                        </div>
+                        <div class="listing-catagory-item">
+                            <div class="listing-catagory-item-overlay">
+                                <h4>Event</h4>
+                                <h3>690</h3>
+                                <p>Listing</p>
+                            </div>
+                            <div class="listing-catagory-content">
+                                <img src="assets/images/icon/red-carpet.svg" alt="listing-catagory-icon">
+                                <p>Event</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ===============  Listing Category area end=============== -->
+    <!-- ===============  Populer listing area start =============== -->
+    <div class="populer-listing">
+        <div class="container">
+            <div class="row">
+                <div class="listing-catagory-header">
+                    <h5>Popular Listing</h5>
+                    <p>Aliquam et arcu quis libero laoreet malesuada. Fusce sapien tellus, venenatis non justo id, tincidunt euismod sapien tellus, venenatis non justo id, tincidunt euismod leo.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xm-12">
+                    <div class="listing-item">
+                        <div class="listing-img">
+                            <img src="assets/images/populer6.png" alt="populer6">
+                            <div class="listing-batch-text">
+                                <p>Restaurant</p>
+                            </div>
+                            <div class="listing-batch-icon">
+                                <i class='bx bx-bookmark'></i>
+                            </div>
+                        </div>
+                        <div class="listing-contents">
+                            <div class="star-rating">
+                                <span><i class='bx bxs-star checked'></i></span>
+                                <span><i class='bx bxs-star checked'></i></span>
+                                <span><i class='bx bxs-star checked'></i></span>
+                                <span><i class='bx bxs-star checked'></i></span>
+                                <span><i class='bx bx-star unchecked'></i></span>
+                                <p>1.5k Review</p>
+                            </div>
+                            <div class="listing-text">
+                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xm-12">
+                    <div class="listing-item">
+                        <div class="listing-img">
+                            <img src="assets/images/populer5.png" alt="populer5">
+                            <div class="listing-batch-text">
+                                <p>Real Estate</p>
+                            </div>
+                            <div class="listing-batch-icon">
+                                <i class='bx bx-bookmark'></i>
+                            </div>
+                        </div>
+                        <div class="listing-contents">
+                            <div class="star-rating">
+                                <span><i class='bx bxs-star checked'></i></span>
+                                <span><i class='bx bxs-star checked'></i></span>
+                                <span><i class='bx bxs-star checked'></i></span>
+                                <span><i class='bx bxs-star checked'></i></span>
+                                <span><i class='bx bx-star unchecked'></i></span>
+                                <p>1.5k Review</p>
+                            </div>
+                            <div class="listing-text">
+                                <a href="#"><h4>Ut a dolor ultrices tempus ma.</h4></a>
+                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xm-12">
+                    <div class="listing-item">
+                        <div class="listing-img">
+                            <img src="assets/images/populer4.png" alt="populer4">
+                            <div class="listing-batch-text">
+                                <p>Fashion</p>
+                            </div>
+                            <div class="listing-batch-icon">
+                                <i class='bx bx-bookmark'></i>
+                            </div>
+                        </div>
+                        <div class="listing-contents">
+                            <div class="star-rating">
+                                <span><i class='bx bxs-star checked'></i></span>
+                                <span><i class='bx bxs-star checked'></i></span>
+                                <span><i class='bx bxs-star checked'></i></span>
+                                <span><i class='bx bxs-star checked'></i></span>
+                                <span><i class='bx bx-star unchecked'></i></span>
+                                <p>1.5k Review</p>
+                            </div>
+                            <div class="listing-text">
+                                <a href="#"><h4>Phasellus dapibus vel augue v.</h4></a>
+                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xm-12">
+                    <div class="listing-item">
+                        <div class="listing-img">
+                            <img src="assets/images/popular3.png" alt="populer3">
+                            <div class="listing-batch-text">
+                                <p>Hotel</p>
+                            </div>
+                            <div class="listing-batch-icon">
+                                <i class='bx bx-bookmark'></i>
+                            </div>
+                        </div>
+                        <div class="listing-contents">
+                            <div class="star-rating">
+                                <span><i class='bx bxs-star checked'></i></span>
+                                <span><i class='bx bxs-star checked'></i></span>
+                                <span><i class='bx bxs-star checked'></i></span>
+                                <span><i class='bx bxs-star checked'></i></span>
+                                <span><i class='bx bx-star unchecked'></i></span>
+                                <p>1.5k Review</p>
+                            </div>
+                            <div class="listing-text">
+                                <a href="#"><h4>Vestibulum mauris tortor iacul.</h4></a>
+                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xm-12">
+                    <div class="listing-item">
+                        <div class="listing-img">
+                            <img src="assets/images/popular2.png" alt="populer2">
+                            <div class="listing-batch-text">
+                                <p>Event</p>
+                            </div>
+                            <div class="listing-batch-icon">
+                                <i class='bx bx-bookmark'></i>
+                            </div>
+                        </div>
+                        <div class="listing-contents">
+                            <div class="star-rating">
+                                <span><i class='bx bxs-star checked'></i></span>
+                                <span><i class='bx bxs-star checked'></i></span>
+                                <span><i class='bx bxs-star checked'></i></span>
+                                <span><i class='bx bxs-star checked'></i></span>
+                                <span><i class='bx bx-star unchecked'></i></span>
+                                <p>1.5k Review</p>
+                            </div>
+                            <div class="listing-text">
+                                <a href="#"><h4>maximus sit amet ultrices nu.</h4></a>
+                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-xm-12">
+                    <div class="listing-item">
+                        <div class="listing-img">
+                            <img src="assets/images/popular1.png" alt="populer1">
+                            <div class="listing-batch-text">
+                                <p>Showroom</p>
+                            </div>
+                            <div class="listing-batch-icon">
+                                <i class='bx bx-bookmark'></i>
+                            </div>
+                        </div>
+                        <div class="listing-contents">
+                            <div class="star-rating">
+                                <span><i class='bx bxs-star checked'></i></span>
+                                <span><i class='bx bxs-star checked'></i></span>
+                                <span><i class='bx bxs-star checked'></i></span>
+                                <span><i class='bx bxs-star checked'></i></span>
+                                <span><i class='bx bx-star unchecked'></i></span>
+                                <p>1.5k Review</p>
+                            </div>
+                            <div class="listing-text">
+                                <a href="#"><h4>Proin semper velit fermentum.</h4></a>
+                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="populer-listing-btn d-flex justify-content-center">
+                    <a href="#">All Listing</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ===============  Populer listing area end =============== -->
+    
+    <!-- ===============  Feature Listing area start =============== -->
+    
+   
+    <div class="feature-listing">
+        <div class="container">
+            <div class="row">
+                <div class="listing-catagory-header">
+                    <h5>Feature Listing</h5>
+                    <p>Aliquam et arcu quis libero laoreet malesuada. Fusce sapien tellus, venenatis non justo id, tincidunt euismod sapien tellus, venenatis non justo id, tincidunt euismod leo.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="feature-listing-slider">
+                        <div class="listing-item">
+                            <div class="listing-img">
+                                <img src="assets/images/feature-listing1.png" alt="feature-listing1">
+                                <div class="listing-batch-text-primary">
+                                    <p>Feature</p>
+                                </div>
+                                <div class="listing-batch-icon">
+                                    <i class='bx bx-bookmark'></i>
+                                </div>
+                            </div>
+                            <div class="listing-contents">
+                                <div class="star-rating">
+                                    <span><i class='bx bxs-star checked'></i></span>
+                                    <span><i class='bx bxs-star checked'></i></span>
+                                    <span><i class='bx bxs-star checked'></i></span>
+                                    <span><i class='bx bxs-star checked'></i></span>
+                                    <span><i class='bx bx-star unchecked'></i></span>
+                                    <p>1.5k Review</p>
+                                </div>
+                                <div class="listing-text">
+                                    <a href="#"><h4>Fusce egestas risus vel posue.</h4></a>
+                                    <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="listing-item">
+                            <div class="listing-img">
+                                <img src="assets/images/feature-listing2.png" alt="feature-listing2">
+                                <div class="listing-batch-text">
+                                    <p>New</p>
+                                </div>
+                                <div class="listing-batch-icon">
+                                    <i class='bx bx-bookmark'></i>
+                                </div>
+                            </div>
+                            <div class="listing-contents">
+                                <div class="star-rating">
+                                    <span><i class='bx bxs-star checked'></i></span>
+                                    <span><i class='bx bxs-star checked'></i></span>
+                                    <span><i class='bx bxs-star checked'></i></span>
+                                    <span><i class='bx bxs-star checked'></i></span>
+                                    <span><i class='bx bx-star unchecked'></i></span>
+                                    <p>1.5k Review</p>
+                                </div>
+                                <div class="listing-text">
+                                    <a href="#"><h4>consectetur adipiscing eliten.</h4></a>
+                                    <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="listing-item">
+                            <div class="listing-img">
+                                <img src="assets/images/feature-listing3.png" alt="feature-listing3">
+                                <div class="listing-batch-text-primary">
+                                    <p>Feature</p>
+                                </div>
+                                <div class="listing-batch-icon">
+                                    <i class='bx bx-bookmark'></i>
+                                </div>
+                            </div>
+                            <div class="listing-contents">
+                                <div class="star-rating">
+                                    <span><i class='bx bxs-star checked'></i></span>
+                                    <span><i class='bx bxs-star checked'></i></span>
+                                    <span><i class='bx bxs-star checked'></i></span>
+                                    <span><i class='bx bxs-star checked'></i></span>
+                                    <span><i class='bx bx-star unchecked'></i></span>
+                                    <p>1.5k Review</p>
+                                </div>
+                                <div class="listing-text">
+                                    <a href="#"><h4>Integer luctus tincidunt rutr.</h4></a>
+                                    <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="listing-item">
+                            <div class="listing-img">
+                                <img src="assets/images/feature-listing1.png" alt="feature-listing1">
+                                <div class="listing-batch-text-primary">
+                                    <p>Feature</p>
+                                </div>
+                                <div class="listing-batch-icon">
+                                    <i class='bx bx-bookmark'></i>
+                                </div>
+                            </div>
+                            <div class="listing-contents">
+                                <div class="star-rating">
+                                    <span><i class='bx bxs-star checked'></i></span>
+                                    <span><i class='bx bxs-star checked'></i></span>
+                                    <span><i class='bx bxs-star checked'></i></span>
+                                    <span><i class='bx bxs-star checked'></i></span>
+                                    <span><i class='bx bx-star unchecked'></i></span>
+                                    <p>1.5k Review</p>
+                                </div>
+                                <div class="listing-text">
+                                    <a href="#"><h4>Fusce egestas risus vel posue.</h4></a>
+                                    <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="listing-item">
+                            <div class="listing-img">
+                                <img src="assets/images/feature-listing2.png" alt="feature-listing2">
+                                <div class="listing-batch-text">
+                                    <p>New</p>
+                                </div>
+                                <div class="listing-batch-icon">
+                                    <i class='bx bx-bookmark'></i>
+                                </div>
+                            </div>
+                            <div class="listing-contents">
+                                <div class="star-rating">
+                                    <span><i class='bx bxs-star checked'></i></span>
+                                    <span><i class='bx bxs-star checked'></i></span>
+                                    <span><i class='bx bxs-star checked'></i></span>
+                                    <span><i class='bx bxs-star checked'></i></span>
+                                    <span><i class='bx bx-star unchecked'></i></span>
+                                    <p>1.5k Review</p>
+                                </div>
+                                <div class="listing-text">
+                                    <a href="#"><h4>consectetur adipiscing eliten.</h4></a>
+                                    <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="listing-item">
+                            <div class="listing-img">
+                                <img src="assets/images/feature-listing3.png" alt="feature-listing3">
+                                <div class="listing-batch-text-primary">
+                                    <p>Feature</p>
+                                </div>
+                                <div class="listing-batch-icon">
+                                    <i class='bx bx-bookmark'></i>
+                                </div>
+                            </div>
+                            <div class="listing-contents">
+                                <div class="star-rating">
+                                    <span><i class='bx bxs-star checked'></i></span>
+                                    <span><i class='bx bxs-star checked'></i></span>
+                                    <span><i class='bx bxs-star checked'></i></span>
+                                    <span><i class='bx bxs-star checked'></i></span>
+                                    <span><i class='bx bx-star unchecked'></i></span>
+                                    <p>1.5k Review</p>
+                                </div>
+                                <div class="listing-text">
+                                    <a href="#"><h4>Integer luctus tincidunt rutr.</h4></a>
+                                    <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="feature-listing-btn  d-flex justify-content-end">
+                        <a href="#">All Listing</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ===============  Feature Listing area end =============== -->
+    <!-- ===============  Location area start =============== -->
+    <div class="location-section">
+        <div class="container-fluid">
+            <div class="row g-4">
+                <div class="col-lg-4 px-0">
+                    <div class="location-map">
+                        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14597.914600558643!2d90.36134711876012!3d23.837131280147993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c14980732303%3A0x9bf9080a7aa5e06a!2sMirpur%20DOHS%20Park%2C%20Avenue%205%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1641553016830!5m2!1sen!2sbd" width="575" height="775" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row row-cols-xxl-3 row-cols-xl-2  row-cols-lg-2 row-cols-md-2 row-cols-1">
+                        <div class="col px-0">
+                            <div class="single-location">
+                                <div class="single-location-img">
+                                    <img src="assets/images/london.png" alt="London">
+                                </div>
+                                <div class="single-location-overlay">
+                                    <h3 class="city-name">London</h3>
+                                    <div class="single-location-qty d-flex justify-content-center">
+                                        <h5>690</h5> <span>Listing</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col px-0">
+                            <div class="single-location">
+                                <div class="single-location-img">
+                                    <img src="assets/images/new-work.png" alt="New Work">
+                                </div>
+                                <div class="single-location-overlay">
+                                    <h3 class="city-name">New York</h3>
+                                    <div class="single-location-qty d-flex justify-content-center">
+                                        <h5>690</h5> <span>Listing</span>
+                                    </div>                                
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col px-0">
+                            <div class="single-location">
+                                <div class="single-location-img">
+                                    <img src="assets/images/africa.png" alt="Africa">
+                                </div>
+                                <div class="single-location-overlay">
+                                    <h3 class="city-name">Africa</h3>
+                                    <div class="single-location-qty d-flex justify-content-center">
+                                        <h5>690</h5> <span>Listing</span>
+                                    </div>                                
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col px-0">
+                            <div class="single-location">
+                                <div class="single-location-img">
+                                    <img src="assets/images/japan.png" alt="Japan">
+                                </div>
+                                <div class="single-location-overlay">
+                                    <h3 class="city-name">Japan</h3>
+                                    <div class="single-location-qty d-flex justify-content-center">
+                                        <h5>690</h5> <span>Listing</span>
+                                    </div>                                
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col px-0">
+                            <div class="single-location">
+                                <div class="single-location-img">
+                                    <img src="assets/images/canada.png" alt="Canada">
+                                </div>
+                                <div class="single-location-overlay">
+                                    <h3 class="city-name">Canada</h3>
+                                    <div class="single-location-qty d-flex justify-content-center">
+                                        <h5>690</h5> <span>Listing</span>
+                                    </div>                                
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col px-0">
+                            <div class="single-location">
+                                <div class="single-location-img">
+                                    <img src="assets/images/russia.png" alt="Russia">
+                                </div>
+                                <div class="single-location-overlay">
+                                    <h3 class="city-name">Russia</h3>
+                                    <div class="single-location-qty d-flex justify-content-center">
+                                        <h5>690</h5> <span>Listing</span>
+                                    </div>                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ===============  Location area end =============== -->
+    <!-- ===============  How Its Work area start =============== -->
+    <!-- <div class="works">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="works-header">
+                        <h3>How Its Work</h3>
+                        <p>Aliquam et arcu quis libero laoreet malesuada. Fusce sapien tellus,
+                            venenatis non justo id, tincidunt euismod sapien tellus,
+                            venenatis non justo id, tincidunt euismod leo.</p>
+                    </div>
+                </div>
+            </div>
+            <nav >
+                <div class="nav nav-tabs works-btns d-flex justify-content-center" id="nav-tab" role="tablist">
+                  <button class="nav-link add-listing-btn active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">How To Add Listing</button>
+                  <button class="nav-link search-listing-btn" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">How To Search Listing</button>
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tab-Content">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <div class="row for-add-listing-btn d-flex">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="works-listing-item">
+                            <div class="works-listing-batch d-flex justify-content-start">
+                                <p>Step 01</p>
+                            </div>
+                            <div class="works-listing-icons d-flex justify-content-center">
+                                <img src="assets/images/icon/add-file1.svg" alt="add-file1">
+                            </div>
+                            <div class="works-listing-content d-flex justify-content-center">
+                                <a href=""><p>First You Login/Register In Directlab</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="works-listing-item">
+                            <div class="works-listing-batch d-flex justify-content-start">
+                                <p>Step 02</p>
+                            </div>
+                            <div class="works-listing-icons d-flex justify-content-center">
+                                <img src="assets/images/icon/add-file1.svg" alt="add-file1">
+                            </div>
+                            <div class="works-listing-content d-flex justify-content-center">
+                                <a href=""><p>Then You Click Add Listing Button</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="works-listing-item">
+                            <div class="works-listing-batch d-flex justify-content-start">
+                                <p>Step 03</p>
+                            </div>
+                            <div class="works-listing-icons d-flex justify-content-center">
+                                <img src="assets/images/icon/add-file1.svg" alt="add-file1">
+                            </div>
+                            <div class="works-listing-content d-flex justify-content-center">
+                                <a href=""><p>Fill Up Your Listing Details.</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="works-listing-item">
+                            <div class="works-listing-batch d-flex justify-content-start">
+                                <p>Step 04</p>
+                            </div>
+                            <div class="works-listing-icons d-flex justify-content-center">
+                                <img src="assets/images/icon/add-file1.svg" alt="add-file1">
+                            </div>
+                            <div class="works-listing-content d-flex justify-content-center">
+                                <a href=""><p>And Finally You Click Submit Button.</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div></div>
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"><div class="row for-search-listing-btn d-flex">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="works-listing-item">
+                            <div class="works-listing-batch d-flex justify-content-start">
+                                <p>Step 01</p>
+                            </div>
+                            <div class="works-listing-icons d-flex justify-content-center">
+                                <img src="assets/images/icon/add-file1.svg" alt="add-file1">
+                            </div>
+                            <div class="works-listing-content d-flex justify-content-center">
+                                <a href=""><p>First You Login/Register In Directlab</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="works-listing-item">
+                            <div class="works-listing-batch d-flex justify-content-start">
+                                <p>Step 02</p>
+                            </div>
+                            <div class="works-listing-icons d-flex justify-content-center">
+                                <img src="assets/images/icon/add-file1.svg" alt="add-file1">
+                            </div>
+                            <div class="works-listing-content d-flex justify-content-center">
+                                <a href=""><p>Then You Click Add Listing Button</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- ===============  How Its Work area end =============== -->
+    <!-- ===============  Category Listing area start =============== -->
+    <div class="category-listing">
+        <div class="container">
+            <div class="row">
+                <div class="listing-catagory-header">
+                    <h5>Category Listing</h5>
+                    <p>Aliquam et arcu quis libero laoreet malesuada. Fusce sapien tellus, venenatis non justo id, tincidunt euismod sapien tellus, venenatis non justo id, tincidunt euismod leo.</p>
+                </div>
+            </div>
+            <div class="row">
+                    <nav>
+                        <div class="nav category-listing-tab nav-tabs d-flex justify-content-center gap-4" id="nav-tab" role="tablist">
+                          <button class="nav-link category-listing-all active" id="nav-all-tab" data-bs-toggle="tab" data-bs-target="#nav-all" type="button" role="tab" aria-controls="nav-all" aria-selected="true">All</button>
+                          <button class="nav-link category-listing-res" id="nav-res-tab" data-bs-toggle="tab" data-bs-target="#nav-res" type="button" role="tab" aria-controls="nav-res" aria-selected="false">Restaurants</button>
+                          <button class="nav-link category-listing-fashion" id="nav-fashion-tab" data-bs-toggle="tab" data-bs-target="#nav-fashion" type="button" role="tab" aria-controls="nav-fashion" aria-selected="false">Fashion</button>
+                          <button class="nav-link category-listing-jobs" id="nav-jobs-tab" data-bs-toggle="tab" data-bs-target="#nav-jobs" type="button" role="tab" aria-controls="nav-jobs" aria-selected="true">Jobs</button>
+                          <button class="nav-link category-listing-events" id="nav-events-tab" data-bs-toggle="tab" data-bs-target="#nav-events" type="button" role="tab" aria-controls="nav-events" aria-selected="false">Event</button>
+                          <button class="nav-link category-listing-reale" id="nav-reale-tab" data-bs-toggle="tab" data-bs-target="#nav-reale" type="button" role="tab" aria-controls="nav-reale" aria-selected="true">Real Estate</button>
+                          <button class="nav-link category-listing-event2" id="nav-event2-tab" data-bs-toggle="tab" data-bs-target="#nav-event2" type="button" role="tab" aria-controls="nav-event2" aria-selected="false">Event</button>
+                        </div>
+                      </nav>
+                    <div class="tab-content" id="nav-tab-Content">
+                        <div class="tab-pane category-listing-all fade show active" id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/category1.png" alt="category1">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Nam quis scelerisque mi tend.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/category2.png" alt="category2.">
+                                            <div class="listing-batch-text">
+                                                <p>Hotel</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque vitae dolor non nunc.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/category3.png" alt="category3">
+                                            <div class="listing-batch-text">
+                                                <p>Real Estate</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>interdum pellentesque at eros.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/category4.png" alt="category4">
+                                            <div class="listing-batch-text">
+                                                <p>Fashion</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Nunc pretium erat ante ornar.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/category5.png" alt="category5">
+                                            <div class="listing-batch-text">
+                                                <p>Hospital</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>volutpat velit placerat nonrels.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/category6.png" alt="category6">
+                                            <div class="listing-batch-text">
+                                                <p>Fashion</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Curabitur dapibus ullamcorpe.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane category-listing-res fade" id="nav-res" role="tabpanel" aria-labelledby="nav-res-tab">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="tab-pane category-listing-fashion fade" id="nav-fashion" role="tabpanel" aria-labelledby="nav-fashion-tab">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane category-listing-jobs fade" id="nav-jobs" role="tabpanel" aria-labelledby="nav-jobs-tab">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane category-listing-events fade" id="nav-events" role="tabpanel" aria-labelledby="nav-events-tab">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane category-listing-reale fade" id="nav-reale" role="tabpanel" aria-labelledby="nav-reale-tab">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane category-listing-event2 fade" id="nav-event2" role="tabpanel" aria-labelledby="nav-event2-tab">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-6">
+                                    <div class="listing-item">
+                                        <div class="listing-img">
+                                            <img src="assets/images/populer6.png" alt="populer6">
+                                            <div class="listing-batch-text">
+                                                <p>Restaurant</p>
+                                            </div>
+                                            <div class="listing-batch-icon">
+                                                <i class='bx bx-bookmark'></i>
+                                            </div>
+                                        </div>
+                                        <div class="listing-contents">
+                                            <div class="star-rating">
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bxs-star checked'></i></span>
+                                                <span><i class='bx bx-star unchecked'></i></span>
+                                                <p>1.5k Review</p>
+                                            </div>
+                                            <div class="listing-text">
+                                                <a href="#"><h4>Quisque malesuada sapien an.</h4></a>
+                                                <p><i class='bx bx-map'></i>Mirpur DOHS, Dhaka</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="row">
+                <div class="populer-listing-btn d-flex justify-content-center">
+                    <a href="#">All Listing</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ===============  Category Listing area end=============== -->
+    <!-- ===============  User Feedback area start =============== -->
+    <div class="user-feedback">
+        <div class="container">
+            <div class="row">
+                <div class="listing-catagory-header">
+                    <h5>User Feedback</h5>
+                    <p>Aliquam et arcu quis libero laoreet malesuada. Fusce sapien tellus, venenatis non justo id, tincidunt euismod sapien tellus, venenatis non justo id, tincidunt euismod leo.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="swiper user-feedback-slider swiper-negetive-space-x">
+                        <div class="swiper-wrapper p-5">
+                            <div class="swiper-slide p-4">
+                                <div class="user-feedback-item">
+                                    <div class="user-feeback-author d-flex">
+                                        <div class="user-feedback-img">
+                                            <img src="assets/images/author1.png" alt="author1">
+                                        </div>
+                                        <div class="user-feedback-author-name">
+                                            <h5>Willson Comik</h5>
+                                            <p>CEO, Egenslab</p>
+                                        </div>
+                                        <div class="user-feedback-icon">
+                                            <i class='bx bxs-quote-left'></i>
+                                        </div>
+                                    </div>
+                                    <div class="user-feedback-content">
+                                        <p>Aliquam et arcu quis libero laoreet malesuada. Fusce sapien tellus,
+                                             venenatis non justo id, tincidunt euismod sapien tellus,
+                                             venenatis non justo id, tincidunt euismod leo.
+                                        </p>
+                                        <div class="star-rating">
+                                            <span><i class='bx bxs-star checked'></i></span>
+                                            <span><i class='bx bxs-star checked'></i></span>
+                                            <span><i class='bx bxs-star checked'></i></span>
+                                            <span><i class='bx bxs-star checked'></i></span>
+                                            <span><i class='bx bx-star unchecked'></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide p-4">
+                                <div class="user-feedback-item">
+                                    <div class="user-feeback-author d-flex">
+                                        <div class="user-feedback-img">
+                                            <img src="assets/images/author1.png" alt="author1">
+                                        </div>
+                                        <div class="user-feedback-author-name">
+                                            <h5>Willson Comik</h5>
+                                            <p>CEO, Egenslab</p>
+                                        </div>
+                                        <div class="user-feedback-icon">
+                                            <i class='bx bxs-quote-left'></i>
+                                        </div>
+                                    </div>
+                                    <div class="user-feedback-content">
+                                        <p>Aliquam et arcu quis libero laoreet malesuada. Fusce sapien tellus,
+                                             venenatis non justo id, tincidunt euismod sapien tellus,
+                                             venenatis non justo id, tincidunt euismod leo.
+                                        </p>
+                                        <div class="star-rating">
+                                            <span><i class='bx bxs-star checked'></i></span>
+                                            <span><i class='bx bxs-star checked'></i></span>
+                                            <span><i class='bx bxs-star checked'></i></span>
+                                            <span><i class='bx bxs-star checked'></i></span>
+                                            <span><i class='bx bx-star unchecked'></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide p-4">
+                                <div class="user-feedback-item">
+                                    <div class="user-feeback-author d-flex">
+                                        <div class="user-feedback-img">
+                                            <img src="assets/images/author1.png" alt="author1">
+                                        </div>
+                                        <div class="user-feedback-author-name">
+                                            <h5>Willson Comik</h5>
+                                            <p>CEO, Egenslab</p>
+                                        </div>
+                                        <div class="user-feedback-icon">
+                                            <i class='bx bxs-quote-left'></i>
+                                        </div>
+                                    </div>
+                                    <div class="user-feedback-content">
+                                        <p>Aliquam et arcu quis libero laoreet malesuada. Fusce sapien tellus,
+                                             venenatis non justo id, tincidunt euismod sapien tellus,
+                                             venenatis non justo id, tincidunt euismod leo.
+                                        </p>
+                                        <div class="star-rating">
+                                            <span><i class='bx bxs-star checked'></i></span>
+                                            <span><i class='bx bxs-star checked'></i></span>
+                                            <span><i class='bx bxs-star checked'></i></span>
+                                            <span><i class='bx bxs-star checked'></i></span>
+                                            <span><i class='bx bx-star unchecked'></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xsm-3">
+                    <div class="slider-arrows text-center d-lg-flex justify-content-end d-none">
+                        <div class="collection-prev3 swiper-prev-arrow" tabindex="0" role="button" aria-label="Previous slide"><i class='bx bx-left-arrow-alt'></i></div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xsm-6">
+                    <div class="slider-border"></div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-xsm-3">
+                    <div class="slider-arrows d-flex justify-content-start d-lg-flex d-none">
+                        <div class="collection-next3 swiper-next-arrow" tabindex="0" role="button" aria-label="Next slide"><i class='bx bx-right-arrow-alt' ></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ===============  User Feedback area end =============== -->
+<!-- ===============  Newsletter area start =============== -->
+<div class="newsletter-section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 px-0">
+                <div class="newsletter-left">
+                    <div class="newsletter-left-content text-center">
+                        <h3>
+                            Submit Listing
+                        </h3>
+                        <p>This is Best Directory Solution,
+                             Submit your listing Class aptent taciti 
+                             sociosqu ad litora torquent per conubia nostra
+                        </p>
+                        <a href="#">Get Start</a>
+                    </div>
+                </div>
+            </div>  
+            <div class="col-lg-6 px-0">
+                <div class="newsletter-right">
+                    <div class="newsletter-right-content text-center">
+                        <p>Stay In Touch</p>
+                        <h3>Subscribe Our</h3>
+                        <span>Newsletter</span>
+                        
+                    </div>
+                    <div class="newsleatter-bar text-center">
+                        <div class="search">
+                            <input type="text" class="searchTerm" placeholder="Enter Your Email Here">
+                            <button type="submit" class="searchButton">
+                            Notify Now
+                           </button>
+                         </div>
+                    </div>
+                </div>
+            </div>          
+        </div>
+    </div>
+</div>
+<!-- ===============  Newsletter area end =============== -->
+<!-- ===============  Latest Post area start =============== -->
+<div class="latest-post-section">
+    <div class="container">
+        <div class="row">
+            <div class="listing-catagory-header">
+                <h5>Latest Post</h5>
+                <p>Aliquam et arcu quis libero laoreet malesuada. Fusce sapien tellus,
+                     venenatis non justo id, tincidunt euismod sapien tellus,
+                      venenatis non justo id, tincidunt euismod leo.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="swiper latest-post-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slider">
+                        <div class="latest-post-item">
+                            <div class="latest-post-img">
+                                <img src="assets/images/latest_post1.png" alt="latest_post1">
+                                <div class="latest-post-batch">
+                                    <a href="#">Hotel</a>
+                                </div>
+                            </div>
+                            <div class="latest-post-content">
+                                <span>Posted 1 min ago</span>
+                                <h3><a href="#">Quisque malesuada sapien and Donec sed nunc.</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slider">
+                        <div class="latest-post-item">
+                            <div class="latest-post-img">
+                                <img src="assets/images/latest_post1.png" alt="latest_post1">
+                                <div class="latest-post-batch">
+                                    <a href="#">Hotel</a>
+                                </div>
+                            </div>
+                            <div class="latest-post-content">
+                                <span>Posted 1 min ago</span>
+                                <h3><a href="#">Quisque malesuada sapien and Donec sed nunc.</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slider">
+                        <div class="latest-post-item">
+                            <div class="latest-post-img">
+                                <img src="assets/images/latest_post1.png" alt="latest_post1">
+                                <div class="latest-post-batch">
+                                    <a href="#">Hotel</a>
+                                </div>
+                            </div>
+                            <div class="latest-post-content">
+                                <span>Posted 1 min ago</span>
+                                <h3><a href="#">Quisque malesuada sapien and Donec sed nunc.</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slider">
+                        <div class="latest-post-item">
+                            <div class="latest-post-img">
+                                <img src="assets/images/latest_post1.png" alt="latest_post1">
+                                <div class="latest-post-batch">
+                                    <a href="#">Hotel</a>
+                                </div>
+                            </div>
+                            <div class="latest-post-content">
+                                <span>Posted 1 min ago</span>
+                                <h3><a href="#">Quisque malesuada sapien and Donec sed nunc.</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slider">
+                        <div class="latest-post-item">
+                            <div class="latest-post-img">
+                                <img src="assets/images/latest_post1.png" alt="latest_post1">
+                                <div class="latest-post-batch">
+                                    <a href="#">Hotel</a>
+                                </div>
+                            </div>
+                            <div class="latest-post-content">
+                                <span>Posted 1 min ago</span>
+                                <h3><a href="#">Quisque malesuada sapien and Donec sed nunc.</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ===============  Latest Post area end =============== -->
+<!-- ===============  Footer area Start =============== -->
+<footer>
+    <div class="footer-social-icon">
+        <div class="facebook">
+            <i class='bx bxl-facebook'></i>
+        </div>
+        <div class="twiter">
+            <i class='bx bxl-twitter'></i>
+        </div>
+        <div class="pinterest">
+            <i class='bx bxl-pinterest-alt'></i>
+        </div>
+        <div class="instagram">
+            <i class='bx bxl-instagram'></i>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="footer-item">
+                    <div class="footer-header">
+                        <h4>Contact Us</h4>
+                    </div>
+                    <div class="footer-content-1">
+                        <ul>
+                            <li><i class='bx bx-phone-call'></i><a href="#">+880 176 1111 456</a><a href="#">+880 176 1111 456</a></li>
+                            <li><i class='bx bx-envelope'></i><a href="#">info@example.com</a><a href="#">info@support.com</a></li>
+                            <li><i class='bx bxs-map'></i>><a href="#">168/170, Avenue 01, Mirpur DOHS, Bangladesh</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="footer-item">
+                    <div class="footer-header">
+                        <h4>Quick Links</h4>
+                    </div>
+                    <div class="footer-content-1">
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="footer-item">
+                    <div class="footer-header">
+                        <h4>Contact Us</h4>
+                    </div>
+                    <div class="footer-content-1">
+                        <ul>
+                            <li><i class='bx bx-phone-call'></i><a href="#">+880 176 1111 456</a><a href="#">+880 176 1111 456</a></li>
+                            <li><i class='bx bx-envelope'></i><a href="#">info@example.com</a><a href="#">info@support.com</a></li>
+                            <li><i class='bx bxs-map'></i>><a href="#">168/170, Avenue 01, Mirpur DOHS, Bangladesh</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="footer-item">
+                    <div class="footer-header">
+                        <h4>Contact Us</h4>
+                    </div>
+                    <div class="footer-content-1">
+                        <ul>
+                            <li><i class='bx bx-phone-call'></i><a href="#">+880 176 1111 456</a><a href="#">+880 176 1111 456</a></li>
+                            <li><i class='bx bx-envelope'></i><a href="#">info@example.com</a><a href="#">info@support.com</a></li>
+                            <li><i class='bx bxs-map'></i>><a href="#">168/170, Avenue 01, Mirpur DOHS, Bangladesh</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- ===============  Footer area end =============== -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
